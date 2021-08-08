@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <style media="screen">
+      .srit{
+      transparency:50%;
+      }
+      body{
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        background: lightblue;
+      }
+      .TITLE{
+        text-align: center;
+        padding-bottom: 50px;
+
+      }
+.details{
+  text-align: center;
+
+}
+    </style>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <form class="details" action="index.html" method="post">
+      <div class="TITLE">
+        <h1><u>COURSE ENROLLMENT FORM</u></h1>
+      </div>
+      <p><label for="name"><b>NAME</b></label></p>
+      <input type="text" name="NAME" placeholder="YOUR NAME">
+      <p><label for="MAIL"><b>EMAIL ID</b></label></p>
+      <input type="text" name="MAIL" placeholder="YOUR EMAIL ID">
+      <p><label for="MN"><b>MOBILE NUMBER</b></label></p>
+      <input type="text" name="MN" placeholder="YOUR MOBILE NUMBER">
+      <p><label for="DOB"><b>DATE OF BIRTH</b></label></p>
+      <input type="date">
+      <p><label for="GENDER"><b>GENDER</b></label></p>
+      <input type="radio" name="" value="male"> <label for="MALE">MALE</label>
+      <input type="radio" name="" value="male"> <label for="MALE">FEMALE</label>
+      <input type="radio" name="" value="male"> <label for="MALE">PREFER NOT TO SAY</label>
+
+      <p><label for="CS"><b>COURSE TO STUDY</b></label></p>
+      <select id ="COURSE">
+      <option placeholder="SELECT COURSE">SELECT</option>
+      <option value="HTML"="HTML&CSS">HTML&CSS</option>
+      <option value="PYTH"="PYTHON">PYTHON</option>
+      </select>
+      <input type="SUBMIT" name="" value="SUBMIT">
+
+
+
+    </form>
+  </body>
+</html>
